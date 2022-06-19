@@ -4,7 +4,7 @@ import { useState } from 'react';
 function App() {
 
   let post = '강남우동맛집';
-  let[title,change] =useState(['남자 코트 추천','맛집추천','야롱야롱']); // 글제목 : 들어간 값,  b: state도와주는 함수
+  let[title,change] =useState(['남자 코트 추천','맛집 추천','블로그 포스팅']); // 글제목 : 들어간 값,  b: state도와주는 함수
   
   let[modalTitle,setModalTitle] = useState(0)
  
